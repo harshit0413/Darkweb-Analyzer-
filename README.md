@@ -36,7 +36,7 @@ To start the server, run:
 
 
 python app.py
-The application will start on http://127.0.0.1:5000/.
+The application will start on http://127.0.0.1:5500/index.html.
 
 
 API Endpoint
