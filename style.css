@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(-45deg, #1f1c2c, #2d3047, #4a4969, #707793);
+    color: #ffffff;
+    position: relative;
+}
+
+.container {
+    padding-top: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.shooting-stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: shooting 3s infinite;
+}
+
+/* Add animation keyframes for shooting stars here */
+
+.center-text {
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+/* Add animation keyframes for center text here */
+
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Add styles for upload button, analyze button, view more button, and download button here */
+
+.analysis-results {
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+/* Add animation keyframes for analysis results here */
+
+.analysis-results h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.analysis-results p {
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.image-container div {
+    margin: 0 10px;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+.image-container .image-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footer {
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: #333333;
+    text-align: center;
+    color: #cccccc;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+}
+
+.para {
+    font-size: 50px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.para_color {
+    color: rgb(209, 241, 6);
+}
+
+#img_border {
+    border: #8f94fb;
+    border-width: 50px;
+    border-radius: 20px;
+    border-color: blue;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #da1919;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+    font-size: 100px;
+}
+
+/* Add keyframes for animate character here */
+
+#section01 {
+    text-shadow: 4px 4px 8px #87b3ff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.div_content {
+    font-size: 20px;
+    margin-left: 5%;
+    width: 90%;
+    padding: 5px;
+    text-align: justify;
+}
+
+.menu-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* Add styles for hamburger menu here */
+
+
+
+/* Add styles for menu items here */
+
+.main_para {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    max-width: 620px;
+    justify-content: center;
+}
